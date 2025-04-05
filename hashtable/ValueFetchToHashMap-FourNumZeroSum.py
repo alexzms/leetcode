@@ -26,7 +26,7 @@ Solution Approach (Hash Map Method):
      * Check if the negative of their sum exists in the hash map
      * If it exists, add the count of occurrences to the result
   3. Return the total count
-- Key Insight: Instead of checking all quadruplets (O(n⁴)), we can split the problem into two pairs
+- Key Insight: Instead of checking all quadruplets (O(n⁴)), we can split the problem into two pairs. Also use hashmap to optimize fetch complexity.
 """
 
 from typing import List
